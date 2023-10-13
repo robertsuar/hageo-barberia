@@ -1,0 +1,156 @@
+progress {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    display: block;
+    margin: 1em auto;
+    background: none;
+    width: 2em;
+    height: 2em;
+    border: 0;
+  }
+  progress::-moz-progress-bar { background: none }
+  progress::-webkit-progress-bar { display: none }
+  progress::-ms-fill { animation-name: none }
+  
+  
+  .barber-pole-progress {
+    width: 15em;
+    height: 3em;
+    border: solid gray;
+    border-width: 0 0.5em;
+    border-radius: 0.3em;
+    background: linear-gradient(to top,
+        rgba(0,0,0, 0.3) 5%, rgba(0,0,0, 0.2) 25%, 
+        rgba(0,0,0, 0.1) 25%, rgba(0,0,0, 0.1) 35%, 
+        rgba(211,211,211, 0.1) 45%, rgba(211,211,211, 0.1) 60%, 
+        rgba(255,255,255, 0.6) 60%, rgba(255,255,255, 0.6) 80%, 
+        rgba(211,211,211, 0.1) 80%, rgba(211,211,211, 0.1) 95%),
+      linear-gradient(transparent 85%, rgba(0,0,0, 0.1) 95%),
+      repeating-linear-gradient(-45deg, 
+        darkred, darkred 10px, 
+        white 11px, white 20px, 
+        darkblue 21px, darkblue 30px, 
+        white 31px, white 40px);
+    background-size: auto, auto, 300% 100%;
+    animation: barber-it-up 5s infinite linear reverse;
+  }
+  
+  @keyframes barber-it-up {
+    100% { background-position: -7em 0 }
+  }
+
+  .pole{
+    position: relative;
+    display: inline-flex;   
+    margin-top: 13%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+  .cookie-alert {
+    position: fixed;
+    bottom: 13px;
+    right: 15px;
+    width: 420px;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+  }
+  
+  .cookie-alert.show {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+  }
+  
+  .cookies{
+    margin-top: -5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-indent: 2%;
+    background-color: bisque;
+  }
+
+  .cookies h2{
+    text-align: center;
+  }
+
+  .cookies p{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .quecookies{
+    margin-bottom: -20%;
+  }
+
+  .configura{
+    margin-top: -20%;
+  }
+  .configura2{
+    margin-bottom: -20%;
+  }
+
+  .examples h6{
+    margin-top: 3%;
+    margin-left: 5%;
+    text-indent: 0%;
+  }
+
+  .examples{
+    margin-left: 10%;
+    text-indent: 0%;
+  }
+
+  .add{
+   background-image: url("../img/background.jpg");   
+  }
+
+
+  .add p{   
+    margin-right: 2%;
+    margin-left:2%;
+  }
+
+  .advice{
+    margin: 5%;
+    padding-bottom: 2%;
+    text-indent: 3%;
+    background-color: bisque;
+  }
+
+  .advice h5{
+    margin-left: 2%;
+  }
+
+  .advice li{
+    text-indent: 0%;
+    margin-left: 5%;
+  }
+  
+  .advice ol{
+    text-indent: 8%;
+  }
+
+  .princeps{
+    text-align: center;
+    padding-top: 2%;    
+  }
+
+  .perfect-style{
+    background-image: url("../img/background.jpg");
+  }
+
+  .principal{
+    margin-top: .5%;
+  }
+
+  
+  
+  
+  
